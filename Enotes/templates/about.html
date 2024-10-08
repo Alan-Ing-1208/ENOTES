@@ -1,0 +1,48 @@
+{% include 'navbar.html' %}
+{% load static %}
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>This is Simple Enotes Management System Developed by Casteeve. using Python Django, HTML, CSS, Bootstrp and sqlite.</p>
+  <p>This project is designed to be accessible from anywhere, providing support to students and encouraging widespread use. User-friendly: The E-Notes Project is simple and easy to navigate.</p>
+</div>
+<br><br>
+<h2 style="text-align:center">Our Team</h2>
+<div class="row offset-3">
+  <div class="column">
+    <div class="card">
+      <img src="{% static 'images/t2.jpg' %}" alt="Pankaj Panjwani" style="border-radius: 50%;">
+      <div class="container">
+        <h2>Stephen Casteeve</h2>
+        <p class="title">CEO & Founder</p>
+        <p>A Chief Executive Officer (CEO) is the top executive in a company. They serve as the public representative of the organization and are responsible for making key corporate decisions.</p>
+        <p>TSC@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="{% static 'images/avatar-5.png' %}" alt="Abhi" style="border-radius: 50%;">
+      <div class="container">
+        <h2>K.O.Humphrey</h2>
+        <p class="title">Software Developer</p>
+        <p>The role of a software developer engages in identifying, designing, installing and testing a software system they have built for a company from the ground.</p>
+        <p>humpreyk@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
